@@ -98,8 +98,7 @@ button {
   color: var(--button-info-text);
 }
 
-.download-button span,
-.purple-download-button span {
+.download-button span {
   color: var(--button-version-text);
   margin-left: 0.2em;
 }
@@ -107,7 +106,10 @@ button {
   background: var(--button-info-bg);
   color: var(--button-info-text);
 }
-
+.purple-download-button span {
+  color: var(--border-color);
+  margin-left: 0.2em;
+}
 /* header */
 .logo-img-container {
   display: flex;
