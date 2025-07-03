@@ -133,7 +133,7 @@ button {
   justify-content: center;
   position: relative;
   z-index: 2;
-  transform: translateY(6rem);
+  top: 105px;
   margin: 0rem 0 4rem 0;
 }
 .timeline-step::before,
