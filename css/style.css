@@ -263,7 +263,7 @@ footer::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 120, 150, 0.85); /* teal overlay */
+  background-color: rgba(71, 138, 155, 0.85); /* teal overlay */
   z-index: 0;
 }
 
