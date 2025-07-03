@@ -5,6 +5,7 @@
 
   /* Color */
   --body-color: #ffffff;
+  --heading-color: #353535;
   --text-color: #000000;
   --light-grey: #8b8b92;
   --button-version-text: #89d2d1;
@@ -50,7 +51,9 @@ h6 {
 
 h1 {
   font-size: 3.5rem;
+  font-weight: 800;
   margin: 0.5em 0;
+  color: var(--heading-color);
 }
 
 h2 {
@@ -174,9 +177,15 @@ button {
 .hero-content-info {
   text-align: center;
 }
+.hero-content-info h1 {
+  max-width: 80%;
+  margin: 1.5rem auto;
+}
 
 .hero-content-info p {
   margin-bottom: 1em;
+  max-width: 80%;
+  margin: 1rem auto;
 }
 
 .hero-content-buttons {
@@ -218,7 +227,7 @@ button {
 
 .smart-meeting-section h2,
 .smart-meeting-section p {
-  max-width: 47%;
+  max-width: 40%;
   margin: 1em auto;
   margin-top: 0;
 }
@@ -275,7 +284,6 @@ footer::before {
     align-items: center;
     text-align: center;
     gap: 2rem;
-    padding: 2rem 1rem;
   }
 
   .hero-images-wrap {
@@ -288,8 +296,11 @@ footer::before {
     width: 100%;
   }
 
-  .hero-content-info h1 {
-    font-size: 2rem;
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.2rem;
   }
 
   .hero-content-info p {
@@ -330,7 +341,9 @@ footer::before {
     width: 100%;
   }
   .smart-meeting-section h2,
-  .smart-meeting-section p {
+  .smart-meeting-section p,
+  .smart-meeting-section,
+  .footer-section p {
     max-width: 100%;
   }
 }
@@ -341,6 +354,11 @@ footer::before {
   .smart-metting-section,
   .footer-section h3,
   .footer-section p {
+    max-width: 100%;
+  }
+
+  .hero-content-info h1,
+  .hero-content-info p {
     max-width: 100%;
   }
 }
