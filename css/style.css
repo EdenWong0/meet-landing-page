@@ -238,6 +238,7 @@ footer {
   background-image: url("../starter-code/assets/desktop/image-footer.jpg");
   background-size: cover;
   background-position: center;
+  opacity: 0.8;
 }
 .footer-section {
   position: relative;
