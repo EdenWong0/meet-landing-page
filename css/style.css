@@ -315,7 +315,8 @@ footer::before {
   }
 }
 @media (max-width: 991px) {
-  .smart-meeting-section,
+  .smart-meeting-section h2,
+  .smart-meeting-section p,
   .footer-section p {
     max-width: 60%;
     margin: 0 auto;
@@ -352,7 +353,6 @@ footer::before {
   .image-grid-section {
     grid-template-columns: 1fr;
   }
-  .smart-metting-section,
   .footer-section h3,
   .footer-section p {
     max-width: 100%;
